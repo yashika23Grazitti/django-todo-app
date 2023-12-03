@@ -1,7 +1,7 @@
 {% extends 'todos/base.html' %}
 
 {% block title %}
-<title>TODO LIST</title>
+<title>Todo List</title>
 {% endblock %}
 
 {% block content %}
@@ -25,7 +25,7 @@
         {% csrf_token %}
         <div class="form-row">
           <div class="col-md-6">
-            <input type="text" class="form-control" name="title" placeholder="kuch to kro" required>
+            <input type="text" class="form-control" name="title" placeholder="Do laundary" required>
           </div>
           <div class="col-md-6">
             <button type="submit" name="submit" class="btn btn-outline-primary">
